@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-variant: small-caps;
+    font-family: "Arial Bold", Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family: "Arial Bold", Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.contact {
+    color: white;
+    float: right;
+    height: 400px;
+    width: 20%;
+    background-color: black;
+    border: 5px white;
+    border-style: ridge;
+    padding: 50px;
+    margin: 10px;
+}
+
+.about {
+    height: 100px;
+    width: 40%;
+    background-color: lightcoral;
+    padding: 50px;
+    margin: 10px;
+}
+
+.about:hover{
+    height: 200px;
+    transition: height 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.projects {
+    height: 100px;
+    width: 40%;
+    background-color: lightskyblue;
+    padding: 50px;
+    margin: 10px;
+}
+
+.projects:hover{
+    height: 200px;
+    transition: height 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.music {
+    height: 100px;
+    width: 40%;
+    background-color: #ffff66;
+    padding: 50px;
+    margin: 10px;
+}
+
+.music:hover{
+    height: 200px;
+    transition: height 0.2s;
+    transition-timing-function: ease-out;
+}
+
+
+
