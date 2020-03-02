@@ -1,0 +1,59 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["PaulCode v.0.0.1"] = "PaulCode v.0.0.1";
+    /*String s1size = Request.Form["Scale1Size"];
+    String s1deg = Request.Form["Scale1Vals"];
+    String s2size = Request.Form["Scale2Size"];
+    String s2deg = Request.Form["Scale2Vals"];
+
+        <text>
+            You entered:
+            <br />
+            Scale 1 Size: @s1size
+            <br />
+            Scale 1 Degrees: @s1deg
+            <br />
+            Scale 2 Size: @s2size
+            <br />
+            Scale 2 Degrees: @s2deg
+            <br />
+        </text>
+    }*/
+}
+
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Welcome to PaulCode, a web app for composers.</h1>
+        <p>PaulCode performs analysis on musical scales to determine points of dissonance and unison.</p>
+
+        <form method="post">
+            <fieldset>
+                <legend>Please enter scale details below:</legend>
+                <div>
+                    <label for="Scale1Size">Scale 1 Size:</label>
+                    <input type="text" name="Scale1Size" value="" />
+                </div>
+                <div>
+                    <label for="Scale1Vals">Scale 1 Degrees:</label>
+                    <input type="text" name="Scale1Vals" value="" />
+                </div>
+                <div>
+                    <label for="Scale2Size">Scale 2 Size:</label>
+                    <input type="text" name="Scale2Size" value="" />
+                </div>
+                <div>
+                    <label for="Scale2Vals">Scale 2 Degrees:</label>
+                    <input type="text" name="Scale2Vals" value="" />
+                </div>
+                <div>
+                    <label>&nbsp;</label>
+                    <input type="submit" value="Calculate" class="submit" />
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
