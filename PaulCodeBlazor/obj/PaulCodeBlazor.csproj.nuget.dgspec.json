@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Parker\\Desktop\\PaulCode\\PaulCodeBlazor\\PaulCodeBlazor.csproj": {}
+    "C:\\Users\\gator\\OneDrive\\Desktop\\ParkerSite\\PaulCodeBlazor\\PaulCodeBlazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Parker\\Desktop\\PaulCode\\PaulCodeBlazor\\PaulCodeBlazor.csproj": {
+    "C:\\Users\\gator\\OneDrive\\Desktop\\ParkerSite\\PaulCodeBlazor\\PaulCodeBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Parker\\Desktop\\PaulCode\\PaulCodeBlazor\\PaulCodeBlazor.csproj",
+        "projectUniqueName": "C:\\Users\\gator\\OneDrive\\Desktop\\ParkerSite\\PaulCodeBlazor\\PaulCodeBlazor.csproj",
         "projectName": "PaulCodeBlazor",
-        "projectPath": "C:\\Users\\Parker\\Desktop\\PaulCode\\PaulCodeBlazor\\PaulCodeBlazor.csproj",
-        "packagesPath": "C:\\Users\\Parker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Parker\\Desktop\\PaulCode\\PaulCodeBlazor\\obj\\",
+        "projectPath": "C:\\Users\\gator\\OneDrive\\Desktop\\ParkerSite\\PaulCodeBlazor\\PaulCodeBlazor.csproj",
+        "packagesPath": "C:\\Users\\gator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gator\\OneDrive\\Desktop\\ParkerSite\\PaulCodeBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Parker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
