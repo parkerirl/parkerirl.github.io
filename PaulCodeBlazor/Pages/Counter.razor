@@ -1,0 +1,36 @@
+﻿@page "/counter"
+@using System.Text.Json
+@using PaulCodeBlazor.Data
+@inject IJSRuntime JsRuntime
+
+<h1>Scale Analysis</h1>
+
+<EditForm Model="@scaleSubmission" OnValidSubmit="@SubmitForm">
+    <p>
+        <label for="Range_1">Range of Scale 1: </label>
+        <InputText id="Range_1" @bind-Value="scaleSubmission.Range_1" />
+        <br />
+        <label for="Scale_1">Scale 1's Degrees (Separate by comma): </label>
+        <InputText id="Scale_1" @bind-Value="scaleSubmission.Scale_1" />
+        <br />
+        <label for="Range_2">Range of Scale 2: </label>
+        <InputText id="Range_2" @bind-Value="scaleSubmission.Range_2" />
+        <br />
+        <label for="Scale_2">Scale 2's Degrees (Separate by comma): </label>
+        <InputText id="Scale_2" @bind-Value="scaleSubmission.Scale_2" />
+    </p>
+
+    <button type="submit">Submit</button>
+</EditForm>
+
+<div>
+    <span id="resultJson"></span>
+</div>
+@code {
+    private ScaleSubmission scaleSubmission = new ScaleSubmission();
+
+    private async Task SubmitForm()
+    {
+        //await JSRuntime.InvokeVoidAsync("setElementTextById", "resultJson", JsonSerializer.Serialize(scaleSubmission));
+    }
+}
