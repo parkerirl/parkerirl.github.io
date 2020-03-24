@@ -1,73 +1,68 @@
 body {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.959);
+    opacity 1;
+    transition: 0.7s opacity;
+}
+
+body.fade {
+    opacity: 0;
+    transition: none;
 }
 
 h1 {
-    color: white;
-    font-variant: unicase;
+    color: rgba(255, 255, 255, 0.938);
+    font-variant: small-caps;
     font-family: "Arial Bold", Arial, sans-serif;
     text-align: center;
+}
+
+.contact {
+    color: rgba(255, 255, 255, 0.938);
+    font-variant: normal;
+    font-family: "Arial Bold", Arial, sans-serif;
 }
 
 p {
     color: black;
     font-family: "Arial Bold", Arial, sans-serif;
+    font-size: large;
+    overflow-wrap: break-word;
+}
+
+.row {
+    display: flex;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    flex: 50%;
+}
+
+.interactbox {
+    height: 150px;
+    width: 40%;
+    padding: 50px;
+    margin: 10px;
+    color: black;
+    font-family: "Arial Bold", Arial, sans-serif;
     font-size: xx-large;
+    text-align: center;
 }
 
-.contact {
-    color: white;
+.panel {
+    height: 670px;
+    width: 100%;
+    padding: 50px;
+    margin: 10px;
     float: right;
-    height: 400px;
-    width: 20%;
-    background-color: black;
-    border: 5px white;
-    border-style: ridge;
-    padding: 50px;
-    margin: 10px;
+    display: none;
+    color: black;
+    font-family: "Arial Bold", Arial, sans-serif;
+    font-size: large;
 }
-
-.about {
-    height: 100px;
-    width: 40%;
-    background-color: lightcoral;
-    padding: 50px;
-    margin: 10px;
-}
-
-.about:hover{
-    height: 200px;
-    transition: height 0.2s;
-    transition-timing-function: ease-out;
-}
-
-.projects {
-    height: 100px;
-    width: 40%;
-    background-color: lightskyblue;
-    padding: 50px;
-    margin: 10px;
-}
-
-.projects:hover{
-    height: 200px;
-    transition: height 0.2s;
-    transition-timing-function: ease-out;
-}
-
-.music {
-    height: 100px;
-    width: 40%;
-    background-color: #ffff66;
-    padding: 50px;
-    margin: 10px;
-}
-
-.music:hover{
-    height: 200px;
-    transition: height 0.2s;
-    transition-timing-function: ease-out;
-}
-
-
-
